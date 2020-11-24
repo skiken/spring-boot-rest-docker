@@ -4,7 +4,7 @@ services:
     container_name: back-end-springRest
     image: spring-boot-rest-docker
     ports:
-       - "8008:8008"
+       - "8080:8080"
     environment:
        - spring.datasource.username=aziz
        - spring.datasource.password=skikenaziz
